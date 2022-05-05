@@ -1,0 +1,80 @@
+<div class="main-container">
+  <div class="image-container">
+    <img mat-card-sm-image src="../../../assets/signup-img.jpg" />
+  </div>
+  <div class="registration-form-container">
+    <div class="header">
+      <h3>STUDENT REGISTRATION FORM</h3>
+    </div>
+    <div class="registration">
+      <div class="form-item-container">
+        <mat-label>Name:</mat-label>
+        <input matInput placeholder="" value="" />
+      </div>
+      <div class="form-item-container">
+        <mat-label>Father Name:</mat-label>
+        <input matInput placeholder="" value="" />
+      </div>
+    </div>
+    <div class="form-item-container">
+      <mat-label>Adress:</mat-label>
+      <input matInput placeholder="" value="" />
+    </div>
+    <mat-radio-group class="gender">
+      <div class="select-gender">
+        <mat-label>Gender:</mat-label>
+      </div>
+      <mat-radio-button value="1">Male</mat-radio-button>
+      <mat-radio-button value="2">Female</mat-radio-button>
+    </mat-radio-group>
+    <div class="select-countries">
+      <div class="form-item-container">
+        <mat-label>State:</mat-label>
+        <select matNativeControl id="mySelectId">
+          <option value="" selected></option>
+          <option value="option1">America</option>
+          <option value="option1">English</option>
+        </select>
+      </div>
+      <div class="form-item-container">
+        <mat-label>City</mat-label>
+        <select matNativeControl id="mySelectId">
+          <option value="" selected></option>
+          <option value="option1">Los Angeles</option>
+          <option value="option1">Washington</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-item-container">
+      <mat-label>DOB:</mat-label>
+      <input matInput placeholder="" value="" />
+    </div>
+    <div class="form-item-container">
+      <mat-label>Pincode:</mat-label>
+      <input matInput placeholder="" value="" />
+    </div>
+    <div class="form-item-container">
+      <mat-label>Course:</mat-label>
+      <select matNativeControl id="mySelectId">
+        <option value="" selected></option>
+        <option value="option1">
+          Computer Operator & Programming Assistant
+        </option>
+        <option value="option1">Designer</option>
+        <option value="option1">Marketing</option>
+      </select>
+    </div>
+    <div class="form-item-container">
+      <mat-label>Email ID:</mat-label>
+      <input matInput placeholder="" value="" />
+    </div>
+    <div class="button-row">
+      <div class="button-reset">
+        <button mat-button-stroked>Reset All</button>
+      </div>
+      <div class="button-submit">
+        <button mat-button-stroked>Submit Form</button>
+      </div>
+    </div>
+  </div>
+</div>
